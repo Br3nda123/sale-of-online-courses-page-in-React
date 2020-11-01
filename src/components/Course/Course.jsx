@@ -6,7 +6,7 @@ import { default as CourseStyles } from './Course.module.scss';
 const style = bemCssModules(CourseStyles);
 
 const Course = ({ authors, img, price, title }) => {
-  const allAuthors = authors.join(', ')
+  const allAuthors = authors.join(', ');
 
 
   return ( 
